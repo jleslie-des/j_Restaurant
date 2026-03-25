@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Restaurant</title>
+</head>
+<!--- Style definition for a class preceded by dot(.) -->
+<!--- display: inline-block;   places block element beside each other   -->
+<!--- padding:                 sets spacing of the content inside element -->
+<style>
+ 	.block{ 
+	    display: inline-block; 
+        width:500px;           
+        height:230px;         
+		padding:30px;          
+     }
+
+    #block1{
+ 	    display: inline-block; 
+        width:500px;           
+        height:230px;         
+		padding:30px;
+        background-color:#0b9612;          
+     }
+
+
+     .footer{
+        background-color:#0b9612;
+        border:1px solid black;
+        margin-top:80px;
+        height:80px;
+     }
+</style>
+<body>
+    <center>
+	 <h1>The Restaurant</h1>                                    <!--- heading tag  --> 
+     <p>                                                        <!--- paragraph tag - a block element -->
+		Come relax and enjoy a sumptious meal at the restaurant.<br>      <!--- <br> gives line break --> 
+		We are located at 5 Brenton Close, Kingston 5.<br>
+		Telephone: 876-923-4512
+	 </p> 
+	 </center>
+	 <div class="block">               <!--- A div is a block element normally starts on a new line  -->
+        <h2>Breakfast</h2>
+        <p>
+            Savour all the tasty dining options we have to offer at our hotel! 
+            Whether you're craving our widely acclaimed Jamaican breakfast, exploring 
+            exciting new pairings at our bars, or indulging in mouthwatering meals, 
+            we’ve got it all covered. And if you’re up for more, we’re just a stone’s 
+            throw away from some of the best dining spots in Kingston.
+        </p>
+      </div> 
+	
+    <div class="block"> 
+	    <!--- <img> tag is used to embed an image in a web page -->
+		<!---  src: Specifies the path or URL to the image file  -->
+		<img src="https://assets.simplotel.com/simplotel/image/upload/x_282,y_0,w_3436,h_2577,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/s-hotel-kingston/SC_Strings-8_qnfnut" height="100%" width="85%"></img>
+    </div> 
+
+    <div id="block1"> 
+	    <!--- <img> tag is used to embed an image in a web page -->
+		<!---  src: Specifies the path or URL to the image file  -->
+		<img src="https://assets.simplotel.com/simplotel/image/upload/w_5000,h_2221/x_0,y_114,w_4998,h_1944,r_0,c_crop,q_80,fl_progressive/w_1650,c_fit,f_auto/spanish-court-hotel-%7C-kingston/Exterior_srchtz" height="100%" width="85%"></img>
+    </div> 
+
+    <div class="block">               <!--- A div is a block element normally starts on a new line  -->
+        <h2>Dinner</h2>
+        <p>
+            Savour all the tasty dining options we have to offer at our hotel! 
+            Whether you're craving our widely acclaimed Jamaican breakfast, exploring 
+            exciting new pairings at our bars, or indulging in mouthwatering meals, 
+            we’ve got it all covered. And if you’re up for more, we’re just a stone’s 
+            throw away from some of the best dining spots in Kingston.
+        </p>
+      </div> 
+
+      <div class="block">               <!--- A div is a block element normally starts on a new line  -->
+        <h2>Breakfast</h2>
+        <p>
+            Savour all the tasty dining options we have to offer at our hotel! 
+            Whether you're craving our widely acclaimed Jamaican breakfast, exploring 
+            exciting new pairings at our bars, or indulging in mouthwatering meals, 
+            we’ve got it all covered. And if you’re up for more, we’re just a stone’s 
+            throw away from some of the best dining spots in Kingston.
+        </p>
+      </div> 
+	
+    <div class="block"> 
+	    <!--- <img> tag is used to embed an image in a web page -->
+		<!---  src: Specifies the path or URL to the image file  -->
+		<img src="https://assets.simplotel.com/simplotel/image/upload/x_282,y_0,w_3436,h_2577,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/s-hotel-kingston/SC_Strings-8_qnfnut" height="100%" width="85%"></img>
+    </div> 
+
+<!--- This div has its css styling as attributes instead of the css defined in a class -->
+<!-- <div style="background-color:#ADD8E6; border:1px solid black;margin-top:80px;height:80px;"> AS AN ATTRIBUTE -->
+<div class="footer"> <!--- pointing to class -->
+    <p style="text-align:center;">
+		We are located at 5 Brenton Close, Kingston 5.<br>
+		Telephone: 876-923-4512
+	</p> 
+  </div>
+
+  
+</body>
+</html>
